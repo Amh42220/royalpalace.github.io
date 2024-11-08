@@ -1,0 +1,430 @@
+* {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 3rem;
+}
+a {
+  text-decoration: none;
+  color: #ffff;
+  text-transform: uppercase;
+}
+header {
+  width: 100%;
+}
+header > nav {
+  border-radius: 1rem;
+  background-color: #246eb7a9;
+  width: 50%;
+  height: 4rem;
+  margin: auto;
+}
+#nav-bar {
+  margin: auto;
+  width: 85%;
+  height: 100%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 30px;
+  font-weight: bold;
+}
+.picture {
+  margin: 1rem auto;
+  width: 60%;
+}
+.picture > h1 {
+  word-spacing: 1rem;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 5rem;
+  background-color: #ffffff;
+  padding: 2rem 3rem;
+  border-radius: 2rem;
+}
+.picture > img {
+  width: 100%;
+}
+main > ul {
+  list-style: none;
+}
+h1 {
+  font-size: xx-large;
+  text-align: center;
+}
+p {
+  font-size: 20px;
+}
+span {
+  color: blue;
+  font-weight: bold;
+}
+.part {
+  padding: 1rem;
+  width: 90%;
+  background-color: #d8c4c4c8;
+  margin: 1rem auto;
+}
+.bar {
+  background-color: blue;
+  border-radius: 1rem;
+  height: 5rem;
+  width: 90%;
+  margin: 0 auto;
+}
+tr > th {
+  width: 3rem;
+  text-align: center;
+  font-size: 25px;
+}
+tr > th > a {
+  color: #fff;
+  padding: 1rem 2rem;
+}
+tr > th > a:active {
+  background: white;
+  border-radius: 2rem;
+  color: #ff0000;
+}
+.detail > th {
+  width: 50%;
+  text-align: justify;
+}
+th > img {
+  width: 99%;
+  margin: 1%;
+}
+iframe {
+  margin: auto;
+}
+.goto {
+  margin: 2rem auto;
+  display: flex;
+  list-style: none;
+  width: 80%;
+  align-items: center;
+  justify-content: space-around;
+}
+.btn > a {
+  font-size: 25px;
+  color: #fff;
+  padding: 1rem 3rem;
+  background-color: rgb(12, 183, 12);
+  border-radius: 1rem;
+}
+.btn > a:active {
+  background-color: blue;
+}
+footer {
+  width: 40%;
+  margin: 2rem auto;
+  background-color: black;
+}
+footer > p {
+  height: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+}
+@media (max-width: 1440px) {
+  header > nav {
+    width: 70%;
+  }
+  #nav-bar {
+    align-items: center;
+    justify-content: space-between;
+  }
+  li > a {
+    font-size: 22px;
+    color: #ededed;
+  }
+  .picture {
+    width: 65%;
+    margin: 0.5rem auto;
+  }
+  .picture > h1 {
+    font-size: 20px;
+    word-spacing: 0;
+  }
+  .part {
+    width: 90%;
+  }
+  .part > h1 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 15px;
+  }
+  .bar {
+    width: 90%;
+    height: 2rem;
+    border-radius: 0.5rem;
+  }
+  .bar > tr {
+    background-color: red;
+  }
+  .bar {
+    width: 90%;
+  }
+  tr > th {
+    font-size: 8px;
+  }
+  .container > li > h2 {
+    font-size: 15px;
+  }
+  .goto {
+    width: 80%;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .btn > a {
+    font-size: 12px;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+  }
+  .btn > a:active {
+    background-color: blue;
+  }
+  iframe {
+    height: 50rem;
+  }
+  footer {
+    width: 40%;
+    margin: 0.3rem auto;
+    background-color: black;
+  }
+  footer > p {
+    padding: 1rem;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+  }
+}
+@media (max-width: 1280px) {
+  header > nav {
+    width: 70%;
+  }
+  #nav-bar {
+    align-items: center;
+    justify-content: space-between;
+  }
+  li > a {
+    font-size: 18px;
+    color: #ededed;
+  }
+  .picture {
+    width: 65%;
+    margin: 0.5rem auto;
+  }
+  .picture > h1 {
+    font-size: 20px;
+    word-spacing: 0;
+  }
+  .part {
+    width: 90%;
+  }
+  .part > h1 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 10px;
+  }
+  .bar {
+    width: 90%;
+    height: 2rem;
+    border-radius: 0.5rem;
+  }
+  .bar > tr {
+    background-color: red;
+  }
+  .bar {
+    width: 90%;
+  }
+  tr > th {
+    font-size: 8px;
+  }
+  .container > li > h2 {
+    font-size: 15px;
+  }
+  .goto {
+    width: 80%;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .btn > a {
+    font-size: 10px;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+  }
+  .btn > a:active {
+    background-color: blue;
+  }
+  iframe {
+    height: 30rem;
+  }
+  footer {
+    width: 40%;
+    margin: 0.3rem auto;
+    background-color: black;
+  }
+  footer > p {
+    padding: 1rem;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+  }
+}
+@media (max-width: 1024px) {
+  header > nav {
+    width: 70%;
+  }
+  #nav-bar {
+    align-items: center;
+    justify-content: space-between;
+  }
+  li > a {
+    font-size: 15px;
+    color: #ededed;
+  }
+  .picture {
+    width: 65%;
+    margin: 0.5rem auto;
+  }
+  .picture > h1 {
+    font-size: 20px;
+    word-spacing: 0;
+  }
+  .part > h1 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 7px;
+  }
+  .bar {
+    width: 90%;
+    height: 2rem;
+    border-radius: 0.5rem;
+  }
+  .bar > tr {
+    background-color: red;
+  }
+  .bar {
+    width: 90%;
+  }
+  tr > th {
+    font-size: 8px;
+  }
+  .container > li > h2 {
+    font-size: 15px;
+  }
+  .goto {
+    width: 80%;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .btn > a {
+    font-size: 10px;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+  }
+  .btn > a:active {
+    background-color: blue;
+  }
+  iframe {
+    height: 25rem;
+  }
+  footer {
+    width: 40%;
+    margin: 0.3rem auto;
+    background-color: black;
+  }
+  footer > p {
+    padding: 1rem;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 10px;
+  }
+}
+@media (max-width: 768px) {
+  header > nav {
+    width: 90%;
+    height: 3rem;
+  }
+  #nav-bar {
+    align-items: center;
+    justify-content: space-around;
+  }
+  li > a {
+    font-size: 10px;
+    color: #ededed;
+  }
+  .picture {
+    width: 90%;
+    margin: 0.5rem auto;
+  }
+  .picture > h1 {
+    font-size: 20px;
+    word-spacing: 0;
+  }
+  .part {
+    width: 97%;
+  }
+  .part > h1 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 7px;
+  }
+  .bar {
+    width: 90%;
+    height: 2rem;
+    border-radius: 0.5rem;
+  }
+  .bar > tr {
+    background-color: red;
+  }
+  .bar {
+    width: 90%;
+  }
+  tr > th {
+    font-size: 6px;
+  }
+  tr > th > a {
+    padding: 1rem 1rem;
+  }
+  .container > li > h2 {
+    font-size: 15px;
+  }
+  .goto {
+    width: 80%;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .btn > a {
+    font-size: 8px;
+    padding: 0.4rem 1rem;
+    border-radius: 0.5rem;
+  }
+  .btn > a:active {
+    background-color: blue;
+  }
+  iframe {
+    height: 10rem;
+  }
+  footer {
+    width: 40%;
+    margin: 0.3rem auto;
+    background-color: black;
+  }
+  footer > p {
+    padding: 1rem;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 10px;
+  }
+}
