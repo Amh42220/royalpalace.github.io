@@ -31,17 +31,27 @@ header > nav {
   font-size: 30px;
   font-weight: bold;
 }
+#home {
+  width: 75%;
+}
 .picture {
   margin: 1rem auto;
-  width: 60%;
+  width: 90%;
 }
 .picture > h1 {
-  word-spacing: 1rem;
   font-family: "Times New Roman", Times, serif;
-  font-size: 5rem;
+  font-size: 3rem;
   background-color: #ffffff;
-  padding: 2rem 3rem;
+  padding: auto 3rem;
   border-radius: 2rem;
+}
+#click > a {
+  text-align: center;
+  font-size: 10px;
+  color: purple;
+}
+#click > a:active {
+  color: red;
 }
 .picture > img {
   width: 100%;
@@ -416,7 +426,7 @@ footer > p {
     height: 10rem;
   }
   footer {
-    width: 60%;
+    width: 40%;
     margin: 0.3rem auto;
     background-color: black;
   }
